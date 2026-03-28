@@ -1,0 +1,30 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Node/JS dependencies and build artifacts (all subprojects)
+**/node_modules/
+**/.next/
+**/out/
+**/dist/
+**/build/
+**/coverage/
+**/.cache/
+**/.turbo/
+
+# Logs
+**/*.log
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python cache (if any)
+**/__pycache__/
+**/*.py[cod]
+
+# Local Docker MongoDB data
+docker-testapp/data/
